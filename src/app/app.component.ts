@@ -4,7 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { TirthankarParichayPage } from '../pages/tirthankar-parichay/tirthankar-parichay';
-import { ListPage } from '../pages/list/list';
+import { ParshvnathPage } from '../pages/parshvnath/parshvnath';
 import { AartiPage } from '../pages/aarti/aarti';
 
 @Component({
@@ -23,7 +23,7 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Tirthankar Parichay', component: TirthankarParichayPage },
-      { title: '108 Parshvnath', component: ListPage },
+      { title: '108 Parshvnath', component: ParshvnathPage },
       { title: 'Aarti Sangrah', component: AartiPage }
     ];
 

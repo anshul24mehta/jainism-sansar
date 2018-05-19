@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 @Component({
-  selector: 'page-list',
-  templateUrl: 'list.html'
+  selector: 'page-parshvnathPage',
+  templateUrl: 'parshvnath.html'
 })
-export class ListPage {
+export class ParshvnathPage {
   
   items: Array<{title: string, note: string}>;
 

@@ -4,7 +4,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { TirthankarParichayPage } from '../pages/tirthankar-parichay/tirthankar-parichay';
-import { ListPage } from '../pages/list/list';
+import { ParshvnathPage } from '../pages/parshvnath/parshvnath';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -19,7 +19,7 @@ import { AartiPage } from '../pages/aarti/aarti';
   declarations: [
     MyApp,
     TirthankarParichayPage,
-    ListPage,
+    ParshvnathPage,
     AartiPage
   ],
   imports: [
@@ -31,7 +31,7 @@ import { AartiPage } from '../pages/aarti/aarti';
   entryComponents: [
     MyApp,
     TirthankarParichayPage,
-    ListPage,
+    ParshvnathPage,
     AartiPage
   ],
   providers: [
