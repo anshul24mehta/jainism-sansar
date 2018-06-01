@@ -8,5 +8,35 @@
 </ion-header>
 
 <ion-content padding>
-  Root page
+  <!--<pre>
+    {{thirthankrs | json}}
+  </pre>-->
+  <!--<ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>-->
+  <ion-card *ngFor="let thirthankr of thirthankrs">
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="">
+      </ion-avatar>
+      <h2>{{thirthankr.number}} - {{thirthankr.name}}</h2>
+      <p><ion-icon name="home"></ion-icon> जन्म स्थान - {{thirthankr.placeOfBirth}} <br>
+      <ion-icon name="planet"></ion-icon> निर्वाण स्थान - {{thirthankr.placeOfNirwan}}</p>
+    </ion-item>
+    <ion-card-content>
+      <p>{{thirthankr.bio}}</p>
+    </ion-card-content>
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-left clear small>
+          <ion-icon name="people"></ion-icon>
+          <div>पिता/माता - {{thirthankr.father}} - {{thirthankr.mother}}</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-left clear small>
+          <ion-icon name="medical"></ion-icon>
+          <div>प्रतीक चिह्न- {{thirthankr.sign}}</div>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
 </ion-content>
